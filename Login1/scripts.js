@@ -4,7 +4,6 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    // For simplicity, using hardcoded credentials
     if (username === 'user' && password === 'babu') {
         window.location.href = 'landing.html';
     } else {

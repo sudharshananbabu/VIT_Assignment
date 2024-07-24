@@ -3,8 +3,6 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
-
-    // For simplicity, using hardcoded credentials
     if (username === 'Sudharshan' && password === 'babu') {
         document.querySelector('.login-container').style.display = 'none';
         const landingContainer = document.getElementById('landing-container');
